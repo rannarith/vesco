@@ -1,0 +1,17 @@
+
+/*=====================================================================
+                    DEFAULT VALUES:
+
+                    Font family: Rboto Condensed
+
+                    Green Blue #34c6d3 (button, icon, link ,line, baground)
+                    Stell Gray #41464b (heading)
+                    White #fff (Paragrap)
+                    Black #000           
+
+
+
+=======================================================================*/
+body {
+    font-family: 'Roboto', sans-serif; 
+}
