@@ -6,6 +6,7 @@
 
                     Green Blue #34c6d3 (button, icon, link ,line, baground)
                     Stell Gray #41464b (heading)
+                    Blue Bayoux #64707b
                     White #fff (Paragrap)
                     Black #000           
 
@@ -19,7 +20,13 @@ body {
 html,body {
     height: 100%;
 }
+p {
+    color: #64707b;
+    font-size: 16px;
+    font-weight: 300px;
+}
 h3 {
+    color: #41464b;
     text-transform: uppercase;
 }
 
@@ -85,4 +92,92 @@ h3 {
     background-color: #fff;
     color: #41464b;
 
+}
+
+/*===================================================================
+                      ANIMATE
+===================================================================*/
+#home-cover,
+#home-heading,
+#home-btn {
+    animation-duration: .5s;
+}
+
+#home-cover {
+    
+    animation-delay: .1s;
+
+}
+#home-heading {
+   
+    animation-delay: .5s;
+}
+#home-btn {
+    
+    animation-delay: 1s;
+}
+
+/*===================================================================
+                      CONTENT (Generic)
+===================================================================*/
+.content-box {
+    padding: 60px 0 60px 0;
+}
+.content-title h3{
+    font-size: 30px;
+    font-weight: 700px;
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+.service-title-undreline {
+    width: 30px;
+    height: 3px;
+    background-color: #34c6d3;
+    margin: 0 auto 30px auto;
+
+}
+
+/*===================================================================
+                      SERVICE
+===================================================================*/
+.service-item {
+    padding: 20px 0 20px 0;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.service-item-icon i{
+    color: #34c6d3;
+    float: left;
+    padding: 15px;
+    margin-right: 25px;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+
+}
+.service-item:hover .service-item-icon i{
+    background-color: #34c6d3;
+    color: #fff;
+        
+}
+.service-item-title h3 {
+    font-size: 20px;
+    font-weight: 400px;
+    margin: 0 0 10px 0;
+}
+.service-item-dec {
+    margin: 0;
+    padding-left: 25px;
+}
+
+/*===================================================================
+                      ABOUT
+===================================================================*/
+.btn-green-blue {
+    border-color:#34c6d3;
+    color:#34c6d3;    
+}
+.btn-green-blue:hover, .btn-green-blue:focus {
+    background-color: #34c6d3;
+    color: #fff;
 }
