@@ -130,7 +130,7 @@ h3 {
                       CONTENT (Generic)
 ===================================================================*/
 .content-box {
-    padding: 60px 0 60px 0;
+    padding: 60px 0 5px 0;
 }
 .content-title h3{
     font-size: 30px;
@@ -195,6 +195,7 @@ h3 {
 #about-content-box {
     float: left;
     height: 700px;
+    /* width: 300px; */
 }
 #about-content-box-outer {
     width: 100%;
@@ -214,14 +215,40 @@ h3 {
    margin: 0 0 30px 0;
 }
 
-#about-content-box-cover {
+/* #about-content-box-cover {
     background-image: url('../img/bg-about.jpg');
-    height: 100%;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    width: 155%;
+    height: 700px;
+    border-left: 200px solid white;
+    border-top: 700px solid transparent;
 
-}
+} */
 #about-desc p {
     margin-bottom: 30px;
+}
+
+/*===================================================================
+                      WORK
+===================================================================*/
+.container-fluid {
+    padding:0 0 0 0;
+}
+.img-thumbnail {
+    border-radius: 0;
+    border: 0 ;
+    padding: 0 0 0 0;
+}
+.row.no-gutters [class*=col-] {
+    padding-right: 0;
+}
+.img-wrapper {
+    overflow: hidden;
+}
+.img-wrapper img {
+    transition: transform .5s ease;
+}
+.img-wrapper img:hover {
+    transform: scale(1.5);
+    cursor: zoom-in;
+    
 }
