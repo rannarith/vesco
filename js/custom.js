@@ -31,3 +31,27 @@ $(function () {
         autoplayHoverPause: true,
     });
 });
+
+/*===================================================================
+                        TESTIMONIALS
+===================================================================*/
+$(function () {
+    $('#customers-testimonial').owlCarousel({
+        items:1,
+        autoplay:true,
+        loop: true,
+        smartSpeed: 700,
+        loop: true,
+        autoplayHoverPause: true,
+    });
+});
+
+/*===================================================================
+                        STATES
+===================================================================*/
+$(function () {
+    $('.count').counterUp({
+        delay: 10,
+        time: 2000,
+    });
+});
